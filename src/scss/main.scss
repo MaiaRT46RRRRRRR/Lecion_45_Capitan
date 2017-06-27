@@ -1,0 +1,38 @@
+@import "colors";
+@import "fonts";
+@import "resolutions";
+
+
+$page_width: 965px;
+
+body{
+    width: $page_width;
+    font-family: $font_base;
+    .box{
+        background-color: $primary_bg;
+        h1{
+          color: $primary_color;
+        }
+    }
+    .container{
+      .notas{
+        li{
+          background-color: $secondary_bg;
+          color: $primary_color;
+          margin: 5px;
+          list-style: none;
+        }
+        li:hover{
+          background-color: $primary_bg;
+        }
+      }
+      .tips{
+        background-color: $secondary_bg;
+        color: $primary_color;
+      }
+    }
+    .end_doc{
+      background-color: $secondary_bg;
+      color: $primary_color;
+    }
+}

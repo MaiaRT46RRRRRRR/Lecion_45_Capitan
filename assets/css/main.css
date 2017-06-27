@@ -1,0 +1,22 @@
+body {
+  width: 965px;
+  font-family: "Roboto", sans-serif; }
+  body .box {
+    background-color: #f9a91a; }
+    body .box h1 {
+      color: white; }
+  body .container .notas li {
+    background-color: #3e3f40;
+    color: white;
+    margin: 5px;
+    list-style: none; }
+  body .container .notas li:hover {
+    background-color: #f9a91a; }
+  body .container .tips {
+    background-color: #3e3f40;
+    color: white; }
+  body .end_doc {
+    background-color: #3e3f40;
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */
